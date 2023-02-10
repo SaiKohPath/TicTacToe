@@ -1,4 +1,4 @@
-def get_language():
+def choose_language():
     valid_languages = ['eng','swe']
     language_index = 0
     languages = [
@@ -81,6 +81,6 @@ def game_start(language):
     return player1.upper()
 
 
-lang = get_language()
+lang = choose_language()
 
 test = game_start(lang)
