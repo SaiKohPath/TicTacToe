@@ -1,0 +1,9 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=500",
+        "--ignore=E402"
+    ]
+
+}
